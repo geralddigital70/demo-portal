@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do It Know IT — Demo Portal</title>
+  <meta name="description" content="An educational demo portal built with HTML, CSS and JavaScript." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Do It Know IT — Educational Demo</span>
+      <span class="topbar-links">
+        <a href="#">Student Portal</a>
+        <a href="#">e-Learning</a>
+        <a href="#">Library</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark">GERALD NJUGUNA</span>
+        <span class="brand-name">Do It Know IT</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#faculties">Faculties</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+   <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <!-- Fading Background Images -->
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: url('assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg');"></div>
+      <div class="slide" style="background-image: url('assets/jonakoh-_-r5lbaK3fDaM-unsplash.jpg');"></div>
+      <div class="slide" style="background-image: url('assets/nasa-Q1p7bh3SHj8-unsplash.jpg');"></div>
+      <div class="slide" style="background-image: url('assets/portraits-of-modern-dairy-pNnWdBqfOQ0-unsplash.jpg');"></div>
+    </div>
+    
+    <!-- Overlay to make text readable -->
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-inner">
+      <h1>Do It Know IT</h1>
+      <p class="tagline">Theme — Learn, Build, Innovate.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#faculties">Explore Faculties</a>
+        <a class="btn btn-ghost" href="#about">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement">
+    <div class="container">
+      <strong>Announcement:</strong> Admissions for the next intake are now open. <a href="#">Read more →</a>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-lead">
+        Do It Know IT is an educational demo portal showcasing a clean,
+        responsive institutional layout built with plain HTML, CSS and JavaScript.
+      </p>
+      <div class="stats">
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Faculties</span></div>
+        <div class="stat"><span class="stat-num">40+</span><span class="stat-label">Programmes</span></div>
+        <div class="stat"><span class="stat-num">10k+</span><span class="stat-label">Students</span></div>
+        <div class="stat"><span class="stat-num">25</span><span class="stat-label">Years</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FACULTIES ===== -->
+  <section class="section section-alt" id="faculties">
+    <div class="container">
+      <h2 class="section-title">Faculties</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Computing &amp; Informatics</h3>
+          <p>Software engineering, databases, networking and AI.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Engineering</h3>
+          <p>Civil, electrical and mechanical engineering programmes.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Business &amp; Economics</h3>
+          <p>Accounting, finance, marketing and entrepreneurship.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Education</h3>
+          <p>Teacher training and curriculum studies.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Health Sciences</h3>
+          <p>Nursing, public health and clinical sciences.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Agriculture</h3>
+          <p>Agronomy, animal science and agribusiness.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS ===== -->
+  <section class="section" id="news">
+    <div class="container">
+      <h2 class="section-title">News &amp; Announcements</h2>
+      <div class="grid grid-3">
+        <article class="card news-card">
+          <div class="news-date">15 Nov 2026</div>
+          <h3>Graduation Ceremony</h3>
+          <p>The 15th graduation ceremony will be held at the main campus.</p>
+          <a href="#" class="card-link">Read more →</a>
+        </article>
+        <article class="card news-card">
+          <div class="news-date">02 Nov 2026</div>
+          <h3>New Intake Open</h3>
+          <p>Applications for the next academic intake are now open.</p>
+          <a href="#" class="card-link">Read more →</a>
+        </article>
+        <article class="card news-card">
+          <div class="news-date">20 Oct 2026</div>
+          <h3>Tech Innovation Week</h3>
+          <p>Students showcase AI and software projects on campus.</p>
+          <a href="#" class="card-link">Read more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUICK LINKS ===== -->
+  <section class="section section-alt" id="links">
+    <div class="container">
+      <h2 class="section-title">Quick Links</h2>
+      <div class="quick-links">
+        <a href="#" class="quick-link">Student Portal</a>
+        <a href="#" class="quick-link">e-Learning</a>
+        <a href="#" class="quick-link">Library</a>
+        <a href="#" class="quick-link">Timetables</a>
+        <a href="#" class="quick-link">Fees</a>
+        <a href="#" class="quick-link">Downloads</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: <a href="mailto:info@example.com">geralddigital70@gmail.com</a></p>
+      <p>Phone: +254 184 730 335</p>
+      <p>P.O. Box 00000 — Demo Town, Kenya</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Do It Know IT</strong>
+        <p>An educational demo portal. No real institution is represented.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      © 2026 Do It Know IT — Demo project. Built with HTML, CSS &amp; JS.
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
